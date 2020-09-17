@@ -21,7 +21,7 @@ def run(data):
     # 'min_samples_split':[2,3,4], 'splitter':["best", "random"]}
     # grid_search_cv = GridSearchCV(DecisionTreeRegressor( ), params, verbose=1, cv=3)
 
-    # # grid search method Decision tree
+    # # grid search method Random Forest Regressor
     # params = {'max_leaf_nodes': list(range(2,200)), 'max_features':['auto', 'sqrt','log2'] ,
     # 'min_samples_split':[2,3,4], 'criterion':["mse", "mae"]}
     # rf = GridSearchCV(RandomForestRegressor( ), params, verbose=1, cv=3)
